@@ -43,21 +43,28 @@ Date de collecte : 02/11/2026
 
 data/
 
-├── raw/            → données brutes
-├── processed/      → données nettoyées, exports KPI, base SQLite
+├── raw/                  → données brutes
+
+├── processed/            → données nettoyées, exports KPI, base SQLite
 
 notebooks/
 
 ├── 01_listings_merge_v2.ipynb
+
 ├── 02_extraction_eda_v2.ipynb
+
 ├── 03_database_modeling.ipynb
+
 ├── 04_data_model_star_schema.ipynb
+
 ├── 05_sql_kpis_star_schema.ipynb
 
 docs/
 
 ├── cadrage_metier.md
+
 ├── cahier_des_charges_data.md
+
 ├── sources.md
 
 ## 6. Pipeline de traitement des données
