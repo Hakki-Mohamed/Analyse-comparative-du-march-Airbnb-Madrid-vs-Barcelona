@@ -39,10 +39,12 @@ neighbourhoods.csv
 Villes étudiées : Madrid, Barcelona
 Date de collecte : 02/11/2026
 
-5. Architecture du projet
+## 5. Architecture du projet
+
 data/
 ├── raw/            → données brutes
 ├── processed/      → données nettoyées, exports KPI, base SQLite
+
 
 notebooks/
 ├── 01_listings_merge_v2.ipynb
@@ -51,10 +53,12 @@ notebooks/
 ├── 04_data_model_star_schema.ipynb
 ├── 05_sql_kpis_star_schema.ipynb
 
+
 docs/
 ├── cadrage_metier.md
 ├── cahier_des_charges_data.md
 ├── sources.md
+
 ## 6. Pipeline de traitement des données
 6.1 Fusion des données
 
