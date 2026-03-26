@@ -39,7 +39,7 @@ neighbourhoods.csv
 Villes étudiées : Madrid, Barcelona
 Date de collecte : 02/11/2026
 
-## 5. Architecture du projet
+# 5. Architecture du projet
 data/
 ├── raw/            → données brutes
 ├── processed/      → données nettoyées, exports KPI, base SQLite
